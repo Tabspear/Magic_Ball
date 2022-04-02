@@ -7,58 +7,58 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Magic Ball</title>
-    <script src="./js/script.js"></script>
+    <script defer src="./js/script.js"></script>
 </head>
 <body>
     <section>
         <div class="container-fluid">
+                                <h2>Truth and Dare Magic Eight Ball</h2> 
             <div class="col-sm-3 col-md-6  border border-dark border-3 " id="circle_container">
+                       
                 <div class="mx-5">
-                   <textarea name="Magic Text" id="magicText" cols="50" rows="10"></textarea>
+                    <h3>Here is the question!</h3>
+                   <input name="MagicText" id="magicText">  
+                  
                 </div>
-                <div class="" id="magic_cirlce">
+                <div class="magic_bounce" id="magic_cirlce">
                     <div class="mx-2">
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
+                        <button id="baby_circle1">1</button>
+                        <button id="baby_circle2">2</button>
+                        <button id="baby_circle3">3</button>
+                        <button id="baby_circle4">4</button>
+                        <button id="baby_circle5">5</button>
+                        
                     </div>
                     <div class="mx-2">
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
+                        <button id="baby_circle6">6</button>
+                        <button id="baby_circle7">7</button>
+                        <button id="baby_circle8">8</button>
+                        <button id="baby_circle9">9</button>
+                        <button id="baby_circle10">10</button>
+                        
                     </div>
                     <div class="mx-2">
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
+                        <button id="baby_circle11">11</button>
+                        <button id="baby_circle12">12</button>
+                        <button id="baby_circle13">13</button>
+                        <button id="baby_circle14">14</button>
+                        <button id="baby_circle15">15</button>
                     </div>
                     <div class="mx-2">
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>       
-                    </div>
-                    <div class="mx-2">
-                        <div class="baby_circle"></div>
-                        <div class="baby_circle"></div>  
-                    </div>            
+                        <button id="baby_circle16">16</button>
+                        <button id="baby_circle17">17</button>
+                        <button id="baby_circle18">18</button>
+                        <button id="baby_circle19">19</button>
+                        <button id="baby_circle20">20</button>      
+                    </div>      
                 </div>
-                
+                <div class='ms-5' id="responsebox">
+                    <h2>Do the Dare ?</h2>
+                    <input type="checkbox" id="yes" name="yes" value="yes">
+                    <label for="name">Yes</label>
+                    <input type="checkbox" id="no" name = "no" value="no">
+                    <label for ="name">No</label>
+                </p></div>   
 
             </div>
 
@@ -66,5 +66,6 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 </body>
 </html>
